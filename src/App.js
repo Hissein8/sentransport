@@ -1,5 +1,7 @@
 import './App.css'
 import Header from './Header'
+import Footer from './Footer'
+import Statistiques from './Statistiques'
 
 // function App() {
 //   return (
@@ -14,8 +16,10 @@ function App() {
     <div className='App'>
       <Header />
       <main className='contenu'>
-      <p>Bienvenu ! Cette application vous aide a trouver votre ligne de bus a Dakar.</p>
+      <h2>Bienvenu ! Cette application vous aide a trouver votre ligne de bus a Dakar.</h2>
+      <h2><Statistiques n1={125} n2={78} n3={350}/></h2>
       </main>
+      <Footer />
     </div>
     
   )

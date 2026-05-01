@@ -1,0 +1,13 @@
+.footer {
+    /* background-color: darkgray; */
+    margin-bottom: 0px;
+    background-color: #0a6e31;
+
+    color: white;
+    margin-bottom: 0px;
+}
+
+.footer-titre {
+    margin: 0;
+    font-size: 2rem;
+}
