@@ -3,7 +3,7 @@ function Statistiques ({n1, n2, n3}) {
         <div>
             <p> + de {n1} Bus dont {n2} Actifs </p>
             <p> + de {n3} Arrêts</p>
-            {/* <p> + de {n3} Acitfs</p> */}
+            <p> + de {n3} Actifs</p>
         </div>
     )
 }
